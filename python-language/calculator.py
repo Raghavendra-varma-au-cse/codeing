@@ -6,6 +6,8 @@
 
 
 #bin/usr/env python3
+print("This is a simple calculator to perform basic math tasks!")
+print("\t***Created by D varma***")
 num1 = int(input("Enter the fitst number : "))
 num2 = int(input("Enter the second number : "))
 reponse = str(input("To know about the operators type 'y/n' :"))

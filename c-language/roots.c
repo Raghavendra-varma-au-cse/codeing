@@ -26,7 +26,7 @@ int main(){
             printf("This equation has imaginary and unreal roots\n\n");
             X = -b/2*a;
             Y = sqrt(abs(b*b - 4*a*c))/2*a;
-            printf("Roots are (%d + i%d)", X, Y);
+            printf("Roots are (%d + i%d) and (%d - i%d)", X, Y, X, Y);
         }
         else{
             printf("This equation has real and equal roots\n\n");

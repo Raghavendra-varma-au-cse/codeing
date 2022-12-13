@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int x,a,b,c,D,X,Y;
-    printf("To Calculate the roots of the given quadratic equation");
+    printf("To Calculate the roots of the given quadratic equation\n\n");
     printf("Please Enter a b c values: ");
     scanf("%d %d %d", &a, &b, &c);
     if(a != 0){
